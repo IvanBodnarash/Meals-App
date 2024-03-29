@@ -55,6 +55,11 @@ const availableCategories = [
     title: 'Summer',
     color: Colors.teal,
   ),
+  Category(
+    id: 'c11',
+    title: 'All Meals',
+    color: Colors.blueGrey,
+  ),
 ];
 
 const dummyMeals = [
@@ -63,6 +68,7 @@ const dummyMeals = [
     categories: [
       'c1',
       'c2',
+      'c11',
     ],
     title: 'Spaghetti with Tomato Sauce',
     affordability: Affordability.affordable,
@@ -96,6 +102,7 @@ const dummyMeals = [
     id: 'm2',
     categories: [
       'c2',
+      'c11',
     ],
     title: 'Toast Hawaii',
     affordability: Affordability.affordable,
@@ -125,6 +132,7 @@ const dummyMeals = [
     categories: [
       'c2',
       'c3',
+      'c11',
     ],
     title: 'Classic Hamburger',
     affordability: Affordability.pricey,
@@ -156,6 +164,7 @@ const dummyMeals = [
     id: 'm4',
     categories: [
       'c4',
+      'c11',
     ],
     title: 'Wiener Schnitzel',
     affordability: Affordability.luxurious,
@@ -190,9 +199,10 @@ const dummyMeals = [
   Meal(
     id: 'm5',
     categories: [
-      'c2'
-          'c5',
+      'c2',
+      'c5',
       'c10',
+      'c11',
     ],
     title: 'Salad with Smoked Salmon',
     affordability: Affordability.luxurious,
@@ -228,6 +238,7 @@ const dummyMeals = [
     categories: [
       'c6',
       'c10',
+      'c11',
     ],
     title: 'Delicious Orange Mousse',
     affordability: Affordability.affordable,
@@ -263,6 +274,7 @@ const dummyMeals = [
     id: 'm7',
     categories: [
       'c7',
+      'c11',
     ],
     title: 'Pancakes',
     affordability: Affordability.affordable,
@@ -294,6 +306,7 @@ const dummyMeals = [
     id: 'm8',
     categories: [
       'c8',
+      'c11',
     ],
     title: 'Creamy Indian Chicken Curry',
     affordability: Affordability.pricey,
@@ -327,6 +340,7 @@ const dummyMeals = [
     id: 'm9',
     categories: [
       'c9',
+      'c11',
     ],
     title: 'Chocolate Souffle',
     affordability: Affordability.affordable,
@@ -378,6 +392,7 @@ const dummyMeals = [
       'c2',
       'c5',
       'c10',
+      'c11',
     ],
     title: 'Asparagus Salad with Cherry Tomatoes',
     affordability: Affordability.luxurious,
